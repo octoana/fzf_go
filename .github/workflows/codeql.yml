@@ -12,6 +12,9 @@
 name: "CodeQL Advanced"
 
 on:
+  # let's you manually run from the UI
+  workflow_dispatch:
+  
   push:
     branches: [ "master" ]
   pull_request:
